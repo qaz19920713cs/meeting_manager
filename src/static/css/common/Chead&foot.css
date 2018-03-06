@@ -1,0 +1,220 @@
+body{
+    overflow-y: scroll;
+}
+/*头部导航*/
+.headbar{
+    width:1024px;
+    height:98px;
+    margin:0 auto;
+    box-sizing:border-box;
+    font-family:"Microsoft YaHei UI";
+}
+.head_left_title_href{
+    position:absolute;
+    height: 100%;
+    width:100%;
+    z-index:99;
+}
+/*左侧*/
+.head_left{
+    float:left;
+}
+.head_left_li1{
+    margin-top:15px;
+}
+.head_left_lia{
+    width:116px;
+    height:60px;
+    background:url("../../images/sprite_all.png") no-repeat 0px 2px;
+    margin-right:8px;
+    display:inline-block;
+}
+.head_left_li2{
+    width:10px;
+    height:15px;
+    background:url("../../images/sprite_all.png") no-repeat 0px -60px;
+    margin-right:10px;
+    margin-top:40px;
+
+}
+.head_left_li3{
+    margin-right:11px;
+    margin-top:37px;
+    font-size:16px;
+    color:#242424;
+}
+.head_left_li4{
+    margin-top:39px;
+    font-size:13px;
+    color:#242424;
+}
+.head_left>ul li{
+    float:left;
+}
+/*右侧*/
+.head_right{
+    float:right;
+    position:relative;
+}
+.head_right>ul>li{
+    float:left;
+}
+#meet_set{
+    padding-bottom:20px;
+}
+.head_right_li1{
+    background:url("../../images/sprite_all.png") no-repeat -72px -86px;
+    width:24px;
+    height:24px;
+    margin-right:5px;
+    margin-top:37px;
+}
+.head_right_li2{
+    margin-top:42px;
+    margin-right:13px;
+    font-size:12px;
+    color:#2a2a2a;
+}
+.head_right_li_common{
+    padding-bottom:10px;
+}
+/*会议管理&下拉框*/
+.head_right_span1{
+    margin-top:42px;
+    font-size:12px;
+    color:#2a2a2a;
+    cursor:pointer;
+}
+.head_right_span2{
+    margin-top:43px;
+    display:inline-block;
+    width:11px;
+    height:11px;
+    background:url("../../images/sprite_all.png") no-repeat -2px -441px;
+}
+.head_right_li6{
+    margin-right:40px;
+}
+#meetpopup{
+    right:205px;
+    width:117px;
+    top:70px;
+    font-family:"Microsoft YaHei UI";
+    font-size:12px;
+}
+/*a标签*/
+.head_right_lia_common{
+    width:24px;
+    height:24px;
+    margin-right:4px;
+    margin-top:37px;
+    display:inline-block;
+    cursor: pointer;
+}
+.head_right_li3a{
+    background:url("../../images/sprite_all.png") no-repeat 0px -86px;
+}
+.head_right_li4a{
+    background:url("../../images/sprite_all.png") no-repeat -24px -86px;
+}
+.head_right_li5a{
+    background:url("../../images/sprite_all.png") no-repeat -48px -86px;
+}
+/*弹窗*/
+.popup{
+    width:130px;
+    position:absolute;
+    top:73px;
+    right:0px;
+    background-color:#fff;
+    border:1px solid #dadada;
+    text-align:center;
+    /*display:none;*/
+    z-index:99;
+    font-size:12px;
+}
+.popup>ul>li:hover{
+    background-color:#1e94da;
+    color: #ffffff !important;
+}
+.popup>ul>li>a:hover{
+}
+.popup>ul>li{
+    padding:7px 0;
+    margin:5px 0;
+}
+/*邮件弹窗*/
+.email_popup{
+    position:absolute;
+    top:74px;
+    right:0px;
+    width:350px;
+    background-color:#fff;
+    border:2px solid #d4d4d4;
+    padding:10px 5px 10px 10px;
+    height:400px;
+    overflow-y: scroll;
+    display:none;
+    z-index:99;
+}
+.email_popup_item{
+    border-bottom:1px dashed #c8c9ca;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.email_popup_item li{
+    margin-bottom:15px;
+}
+.email_popup_item li:first-child{
+    border-bottom:1px solid #ececec;
+    padding-bottom:10px;
+    font-size:15px;
+}
+.email_popup_item li:not(:first-child){
+    margin-left:20px;
+    font-size:12px;
+    font-weight:bold;
+}
+.email_popup_item li:not(:first-child) span:first-child{
+    display:inline-block;
+    width:240px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.common_item1{
+    margin-right:15px;
+}
+.common_item2{
+    margin-right:35px;
+}
+/*尾部*/
+.foot_bar{
+    width:1024px;
+    position:fixed;
+    border-top:2px solid #555555;
+    bottom:83px;
+    left:50%;
+    margin-left:-512px;
+}
+.foot_bar p{
+    text-align:center;
+    margin-top:13px;
+    font-size:12px;
+    color:#606060;
+    font-family:"Microsoft YaHei UI";
+}
+.footer_style{
+    margin-right:16px;
+}
+/*主体宽度*/
+.main{
+    width:1024px;
+    margin:0 auto;
+}
+.display_none{
+    display:none!important;
+}
+.display_block{
+    display:block!important;
+}

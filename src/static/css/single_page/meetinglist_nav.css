@@ -1,0 +1,34 @@
+/*会议列表导航*/
+.meeting_list{
+    margin-top:10px;
+    position:relative;
+    padding:3px 0;
+}
+.meeting_list li a{
+    display:inline-block;
+    width:82px;
+    height:22px;
+    color:#fff;
+    line-height:22px;
+}
+.meeting_list li{
+    float:left;
+    margin-right:5px;
+    text-align:center;
+}
+.list_color1{
+    background:url("../../images/sprite_all.png") no-repeat -178px 0px;
+}
+.list_color2{
+    background-color:#313438;
+}
+.list_last_child{
+    position:absolute;
+    right:0;
+    margin: 0 !important;
+    background-color:#eef1f3;
+    border:1px solid #dddede;
+}
+.list_last_child a{
+    color:#888988!important;
+}

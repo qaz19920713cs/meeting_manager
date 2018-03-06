@@ -1,0 +1,226 @@
+/*主体部分*/
+.user_main{
+    width:1024px;
+    margin:0 auto;
+}
+/*列表项*/
+.meeting_list{
+    margin-top:10px;
+    position:relative;
+    padding:3px 0;
+}
+.meeting_list li a{
+    display:inline-block;
+    width:82px;
+    height:22px;
+    color:#fff;
+    line-height:22px;
+}
+.meeting_list li{
+    float:left;
+    margin-right:5px;
+    text-align:center;
+}
+.list_color1{
+    background:url("../../images/sprite_all.png") no-repeat -178px 0px;
+}
+.list_color2{
+    background-color:#313438;
+}
+.list_last_child{
+    position:absolute;
+    right:0;
+    margin: 0 !important;
+    background-color:#eef1f3;
+    border:1px solid #dddede;
+}
+.list_last_child a{
+    color:#888988!important;
+}
+/*滚动内容区*/
+.scroll_content{
+    height:682px;
+    overflow:auto;
+    margin-top:20px;
+    width:100%;
+    border-bottom:2px solid #949799;
+}
+.mCSB_dragger_bar{
+    background-color:#c0c5c8!important;
+    width: 7px !important;
+    border-radius:0!important;
+}
+.mCSB_draggerRail{
+    background-color: transparent !important;
+}
+.mCSB_scrollTools{
+    width:7px!important;
+}
+.mCSB_inside>.mCSB_container {
+    margin-right: 0px!important;
+}
+/*折叠菜单*/
+.fold_button{
+    margin:15px 0 30px 0;
+}
+/*折叠区内容*/
+.meeting_content{
+    border-top:1px dashed #525454;
+    width:42%;
+    padding:40px 0px;
+    font-size:14.5px;
+    margin:0px 36px 0 35px;
+    float:left;
+
+}
+.meeting_content ul{
+    margin-bottom:15px;
+    position:relative;
+}
+.meeting_content li{
+    float:left;
+}
+.meeting_content ul li:last-child{
+    position:absolute;
+    right:0;
+}
+.span_style li:last-child>span{
+    display:inline-block;
+    width:45px;
+    text-align:center;
+}
+.span_style p{
+    margin-bottom:7px;
+}
+.ul_style{
+    margin-left:27px;
+}
+.ul_style li:last-child a{
+    display:inline-block;
+    width:83px;
+    height:23px;
+    color:#888988;
+    background-color: #eef1f3;
+    border: 1px solid #dddede;
+    text-align: center;
+}
+.fold_li_style{
+    height:23px;
+}
+.meeting_content ul:first-child li:first-child img{
+    vertical-align:bottom;
+    margin-right:3px;
+}
+.fold_content2{
+    margin-bottom:70px;
+}
+.img_common {
+    display: inline-block;
+    background-image: url(../../images/meeting-all.png);
+    vertical-align: sub;
+}
+.meeting_held_icon1{
+    width: 21px;
+    height: 16px;
+    background-position: -189px -560px;
+    margin-right: 4px;
+}
+.meeting_held_icon2{
+    width:32px;
+    height:32px;
+    background-position:-1px -486px;
+}
+.meeting_held_word{
+    display:inline-block;
+    width:40px;
+}
+.word_hidden{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.meeting_held_word1{
+    display:inline-block;
+    width:222px;
+    vertical-align:sub;
+}
+.meeting_held_icon3{
+    width:9px;
+    height:9px;
+    background-position:-2px -251px;
+    vertical-align: baseline;
+}
+/*折叠开关*/
+.fold_display{
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+.system_manager{
+    border-top: 2px solid #666666;
+    padding-top: 20px;
+    width: 111px;
+    text-align: right;
+}
+.system_manager p{
+    font-size:14px;
+    margin-bottom:12px;
+    cursor:pointer;
+    height:19px;
+}
+.system_manager ul{
+    display:none;
+}
+.system_manager ul li{
+    margin-bottom:24px;
+    cursor:pointer;
+    position:relative;
+    height:16px;
+}
+.system_manager ul li:last-child{
+    margin-bottom:43px;
+}
+.system_manager ul li:first-child{
+    margin-top:19px;
+}
+.font_bold{
+    font-weight:bold;
+}
+.system_manager_span_style{
+    position:absolute;
+    background:url("../../images/sprite_all.png") no-repeat 0px -912px;
+    width:56px;
+    height:20px;
+    top:-2px;
+    right:-3px;
+    z-index:-1;
+}
+.system_manager_astyle{
+    color:#fff;
+}

@@ -1,0 +1,471 @@
+/*覆盖导航栏*/
+/*主体开始*/
+.meeting_main{
+    width:1024px;
+    margin:0 auto;
+    font-family:"Microsoft YaHei UI";
+}
+/*我的会议*/
+.my_meet{
+    height:23px;
+    font-size:12px;
+}
+.my_meet_p1{
+    border-top:2px solid #3d3a39;
+    margin:0 2px;
+    position:absolute;
+    width:78px;
+    top:17px;
+}
+.my_meet_p1_style{
+    display:none;
+}
+.my_meet li{
+    float:left;
+    width:82px;
+    height:19px;
+    text-align:center;
+    position:relative;
+}
+
+.li_style{
+    border-bottom:1px solid #949799;
+}
+.li_style1{
+    width:778px!important;
+}
+/*列表项*/
+.meeting_list{
+    margin-top:14px;
+    position:relative;
+}
+.meeting_list li a{
+    display:inline-block;
+    width:83px;
+    height:23px;
+    color:#fff;
+}
+.meeting_list li{
+    float:left;
+    margin-right:5px;
+    text-align:center;
+}
+.list_color1{
+    background:url("../../images/sprite_all.png") no-repeat 0px -749px;
+    width:82px;
+    height:22px;
+    line-height:22px;
+    color:#fff;
+    font-size:12px;
+}
+.list_color2{
+    background-color:#313438;
+    height:22px;
+    line-height:22px;
+    font-size:12px;
+}
+.list_last_child{
+    position:absolute;
+    right:0;
+    margin: 0 !important;
+    background-color:#eef1f3;
+    border:1px solid #dddede;
+}
+.list_last_childA{
+    color:#888988!important;
+}
+.list_last_child1{
+    position:absolute;
+    right:100px;
+    background-color:#eef1f3;
+    border:1px solid #dddede;
+}
+/*会议选项*/
+.meeting_set_main{
+    font-family:"Microsoft YaHei UI";
+    font-size:12px;
+}
+/*左侧主体*/
+.main_left_li{
+    border-bottom:2px solid #939698;
+}
+.set_main_left>li>span:first-child{
+    margin-right:30px;
+    display:inline-block;
+    width:80px;
+    color:#4e4e4e;
+}
+.set_main_left>li>span:last-child{
+    display:inline-block;
+    width:457px;
+}
+.set_main_left>li{
+    margin-bottom:28px;
+}
+.set_main_left{
+}
+.span_style1{
+    border-bottom:1px solid #aeb0b1;
+}
+.span_style1 input{
+    border:0px;
+    width:100%;
+}
+.span_style2_input{
+    border:0;
+    border-bottom:1px solid #aeb0b1;
+    width:30px;
+    padding-left:10px;
+}
+
+.span_style_checkout{
+    background:url("../../images/sprite_all.png") no-repeat 0px -508px;
+    display:inline-block;
+    width:18px;
+    height:18px;
+}
+.span_style_checked{
+    background:url("../../images/sprite_all.png") no-repeat -18px -508px;
+}
+.span_style8{
+    vertical-align: super;
+}
+.span_style_close{
+    background:url("../../images/sprite_all.png") no-repeat -126px -577px;
+    display:inline-block;
+    width:63px;
+    height:23px;
+    vertical-align:middle;
+    cursor:pointer;
+}
+.span_style_open{
+    background:url("../../images/sprite_all.png") no-repeat 0px -577px;
+}
+.span_style4{
+    display:inline-block;
+    width:104px;
+    height:23px;
+    border:1px solid #dcdfe1;
+    background-color:#fff;
+    color:#8e8f8e;
+    text-align:center;
+    font-size:12px;
+    margin-right:6px;
+    line-height: 23px;
+    margin-bottom:5px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.span_style10{
+    background-color:#eef1f3;
+    cursor:pointer;
+}
+.span_style_area{
+    width:476px;
+    height:116px;
+    border:1px solid #949799;
+    margin-top:-33px;
+    margin-left:113px;
+    padding:10px;
+}
+.span_style5{
+    display:inline-block;
+    width:180px;
+    border:0;
+    border-bottom:1px solid #aeb0b1;
+    margin-right:20px;
+}
+.span_style12{
+    display:inline-block;
+    width:134px;
+    border:0;
+    border-bottom:1px solid #aeb0b1;
+    margin-right:10px;
+}
+.span_style9{
+    vertical-align:top;
+}
+.span_style6{
+    vertical-align: top;
+}
+.textarea_style{
+    width:476px;
+    height:140px;
+    resize:none;
+}
+.span_style7{
+    font-size:12px;
+    color:#b6b6b6;
+}
+.span_style11{
+    color:#b6b6b6;
+}
+/*查找会议室*/
+.style_area_p{
+    border-bottom:1px solid #b7bbbe;
+    padding-bottom:7px;
+}
+.style_area_content1{
+    display:inline-block;
+    width:21px;
+    height:21px;
+    background:url("../../images/sprite_all.png") no-repeat 0px -556px;
+}
+.style_area_content2{
+    color:#b6b6b6;
+    vertical-align:super;
+}
+.no_meetingroom{
+    margin-top:20px;
+    display:none;
+}
+.have_meetingroom_ul>li{
+    margin-bottom:5px;
+    cursor: pointer;
+}
+/*日期选择框*/
+#datepicker{
+    border: 0px;
+    border-bottom:1px solid #b6b6b6;
+    padding-bottom:2px;
+    width:100px;
+    background:url("../../images/sprite_all.png") no-repeat 80px -456px;
+    cursor:pointer;
+}
+/*时间下拉框*/
+select{
+    border:none;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    width:50px;
+    margin-left:5px;
+    padding-bottom:2px;
+    cursor:pointer;
+
+}
+.main_left_span1{
+    border-bottom:1px solid #b6b6b6;
+    padding-bottom:2px;
+    margin-right:10px;
+}
+.main_left_span2{
+    background:url("../../images/sprite_all.png") no-repeat 0px -494px;
+    display:inline-block;
+    width:15px;
+    height:15px;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+.main_left_span3{
+    margin-right:20px;
+}
+/*右侧主体*/
+.main_right_li{
+    border-bottom:2px solid #939698;
+    height: 506px;
+}
+.main_right_ul>li{
+    width:140px;
+    height:22px;
+    line-height:22px;
+    text-align:center;
+    color:#fff;
+    cursor:pointer;
+}
+/*与会人导航栏*/
+.static_background{
+    background:url("../../images/sprite_all.png") no-repeat 0px -808px;
+}
+.active_background{
+    background:url("../../images/sprite_all.png") no-repeat 0px -779px;
+}
+.main_right_li_style1{
+    margin-left:2px;
+}
+/*搜索与添加与会人员*/
+.seach_add_people{
+    margin-top:10px;
+    height:38px;
+}
+.main_right_ul_bottom{
+    padding:0 20px;
+}
+/*与会人列表div*/
+.meeting_people_div{
+    margin-top:15px;
+}
+/*常用参会人*/
+.meeting_content_div{
+    margin-top:15px;
+    padding:0 20px;
+    display:none;
+}
+.righ_li_input{
+    border:0;
+    border-bottom:1px solid #c9cacb;
+    display:inline-block;
+    width:100%;
+    margin-bottom:2px;
+    height:27px;
+}
+/*与会人搜索框*/
+.meeting_man_seach{
+    position:absolute;
+    width: 20px;
+    height:20px;
+    background:url("../../images/sprite_all.png") no-repeat 0px -477px;
+    right:0px;
+    top:6px;
+}
+/*添加与会人员*/
+.add_meeting_people{
+    width:30px;
+    height:30px;
+    margin-right:10px;
+    border-radius:50px;
+}
+.meeting_people{
+    padding:4px 6px;
+    cursor:pointer;
+    margin-top:10px;
+    height:38px;
+}
+.meeting_people:hover{
+    background:url("../../images/sprite_all.png") no-repeat 0px -836px;
+}
+.partake_people{
+    background:url("../../images/sprite_all.png") no-repeat 0px -836px;
+}
+.cursor_pointer{
+    cursor:pointer;
+}
+/*去除与会人员*/
+.remove_people{
+    background:url("../../images/sprite_all.png") no-repeat -65px -671px;
+    width:23px;
+    height:15px;
+    position:absolute;
+    right:5px;
+    top:13px;
+    display:none;
+}
+/*.添加与会人员*/
+.add_people{
+    background:url("../../images/sprite_all.png") no-repeat 0px -877px;
+    width:24px;
+    height:24px;
+    position:absolute;
+    right:5px;
+    top:8px;
+    display:none;
+}
+.display_block{
+    display:block;
+}
+/*滚动内容区*/
+.scroll_content{
+    width:694px;
+    height:482px;
+    overflow:auto;
+    margin-top:22px;
+}
+.scroll_content1{
+    overflow:auto;
+    height:482px;
+    width:282px;
+}
+.scroll_content2{
+    overflow:auto;
+    height:63px;
+    width:456px;
+    margin-top:10px!important;
+}
+.scroll_content3{
+    width:242px;
+    height:359px;
+    overflow:auto;
+}
+.scroll_content4{
+    width:242px;
+    height:445px;
+    overflow:auto;
+}
+.scroll_content5{
+    width:213px;
+    max-height:338px;
+    overflow:auto;
+}
+.meeting_people_nav{
+    margin-top:22px;
+}
+.mCSB_dragger_bar{
+    background-color:#c0c5c8!important;
+    width: 7px !important;
+    border-radius:0!important;
+}
+.mCSB_draggerRail{
+    background-color: transparent !important;
+}
+.mCSB_scrollTools{
+    width:7px!important;
+}
+.mCSB_inside>.mCSB_container {
+    margin-right: 10px!important;
+}
+/*日历控件*/
+#ui-datepicker-div{
+    font-size:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

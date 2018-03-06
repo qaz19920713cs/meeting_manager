@@ -1,0 +1,29 @@
+/*我的会议*/
+.my_meet{
+    height:23px;
+    font-size:12px;
+}
+.my_meet_p1{
+    border-top:2px solid #3d3a39;
+    margin:0 2px;
+    position:absolute;
+    width:78px;
+    top:17px;
+}
+.my_meet_p1_style{
+    display:none;
+}
+.my_meet li{
+    float:left;
+    width:82px;
+    height:19px;
+    text-align:center;
+    position:relative;
+}
+.li_style{
+    border-bottom:1px solid #949799;
+}
+.li_style1{
+    width:778px!important;
+    border-bottom:1px solid #949799;
+}
